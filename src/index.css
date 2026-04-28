@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+:root {
+  --text: #fff;
+  --text-h: #08060d;
+  --bg: #000;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: 'DotGothic16', sans-serif;
+  --heading: 'DotGothic16', sans-serif;
+  --mono:'DotGothic16' monospace;
+
+ font-family: var(--sans);
+}
+
+body {
+  margin: 0;
+  background-color:#000;
+  color:#fff;
+}
+
