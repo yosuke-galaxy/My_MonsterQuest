@@ -5,7 +5,7 @@ import { PLAYER_STATUS, SLIME_STATUS, WIZARD_STATUS } from "./constants"
 type Scene = "STRAT" | "NAME_INPUT" | "BATTLE" | "RESULT"
 type Turn =
   | "PLAYER_SELECT"
-  | "SLIME_TURN"
+  | "SLIME_TN"
   | "WIZARD_SELECT"
   | "MESSAGE_WAITING"
   | "RESULT"
